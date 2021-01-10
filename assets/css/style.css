@@ -4,19 +4,15 @@
 	--first-color: #12192C;
 	--second-color: #F5A624;
 	--white-color: #EDEDED;
-}
-:root{
-	--small-font-size:0.875rem;
-	@media screen and (min-width: 768px){
-		--small-font-size:0.938rem;
-	}
-}
-:root{
 	--z-back:-10;
 	--z-normal: 1;
 	--z-tool: 10;
 	--z-fix: 100;
 	--z-modal: 1000;
+	--small-font-size:0.875rem;
+	@media screen and (min-width: 768px){
+		--small-font-size:0.938rem;
+	}
 }
 
 body{
@@ -96,4 +92,8 @@ a{
 	display: flex;
 	align-items: center;
 	padding: .5rem;
+	margin-bottom: 1rem;
+	border-radius: .5rem;
+	color: var(--white-color);
+	transition: .3s;
 }
