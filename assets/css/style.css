@@ -41,7 +41,7 @@ a{
 	position: fixed;
 	top: 0;
 	left: 0;
-	width: 168px;
+	width: 56px;
 	height: 100vh;
 	background-color: var(--first-color);
 	padding: 1.25rem .5rem 2rem;
@@ -105,4 +105,15 @@ a{
 .nav_icon{
 	font-size: 2rem;
 	margin-right: 1rem;
+}
+.nav_text{
+	font-weight:400;
+
+}
+
+/* show menu */
+.show{
+	width: 168px;
+	
+
 }
