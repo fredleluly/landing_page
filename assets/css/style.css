@@ -114,6 +114,9 @@ a{
 /* show menu */
 .show{
 	width: 168px;
-	
+}
 
+/* expand all body */
+.expand{
+	padding: 1rem 0 0 12rem;
 }
