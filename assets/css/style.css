@@ -1,7 +1,7 @@
 
 
 :root{
-	--first-color: #12192C;
+	--first-color: #1b1b2f;
 	--second-color: #F5A624;
 	--white-color: #EDEDED;
 	--z-back:-10;
@@ -96,4 +96,13 @@ a{
 	border-radius: .5rem;
 	color: var(--white-color);
 	transition: .3s;
+
+}
+.nav_link:hover{
+	background-color: var(--second-color);
+	color: var(--first-color);
+}
+.nav_icon{
+	font-size: 2rem;
+	margin-right: 1rem;
 }
