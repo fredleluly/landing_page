@@ -115,8 +115,16 @@ a{
 .show{
 	width: 168px;
 }
-
+.rotate_toggle{
+	transform: rotate(180deg);
+	transition: .5s;
+}
 /* expand all body */
 .expand{
 	padding: 1rem 0 0 12rem;
+}
+
+.active{
+	background-color: var(--second-color);
+	color: var(--first-color);
 }
