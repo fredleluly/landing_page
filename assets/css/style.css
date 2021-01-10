@@ -1,0 +1,99 @@
+
+
+:root{
+	--first-color: #12192C;
+	--second-color: #F5A624;
+	--white-color: #EDEDED;
+}
+:root{
+	--small-font-size:0.875rem;
+	@media screen and (min-width: 768px){
+		--small-font-size:0.938rem;
+	}
+}
+:root{
+	--z-back:-10;
+	--z-normal: 1;
+	--z-tool: 10;
+	--z-fix: 100;
+	--z-modal: 1000;
+}
+
+body{
+	position: relative;
+	margin: 0;
+	padding: 1rem 0 0 5rem;
+	background-color: var(--white-color);
+	font-family: arial;
+	transition: .5s;
+}
+h1{
+	margin: 0;
+}
+ul,li{
+	margin: 0;
+	padding: 0;
+	list-style: none;
+}
+a{
+	text-decoration: none;
+}
+
+
+/* nav */
+.l-navbar{
+	position: fixed;
+	top: 0;
+	left: 0;
+	width: 168px;
+	height: 100vh;
+	background-color: var(--first-color);
+	padding: 1.25rem .5rem 2rem;
+	transition: .5s;
+	z-index: var(--z-fix);
+}
+/* nav */
+.nav{
+	height: 100%;
+	display: flex;
+	flex-direction: column;
+	justify-content: space-between;
+	overflow: hidden;
+}
+.nav_logo{
+	display: flex;
+	align-items: center;
+	margin-bottom: 2rem;
+	padding: 0 .5rem;
+}
+.nav_logo-icon{
+ margin-right: 1.2rem;
+}
+.nav_logo-text{
+	color: var(--white-color);
+	font-weight: 700;
+}
+.nav_logo img{
+	height: 40px;
+}
+.nav_toggle{
+	position: absolute;
+	top: 1.10rem;
+	right: -.6rem;
+	width: 18px;
+	height: 18px;
+	background-color: var(--second-color);
+	border-radius: 50%;
+	font-size: 1.25rem;
+	color: var(--first-color);
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	cursor: pointer;
+	transition: .5s;
+}
+.nav_link{
+	display: flex;
+	align-items: center;
+	padding: .5rem;
+}
